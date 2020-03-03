@@ -35,10 +35,9 @@ nav li:hover{
     margin-right: 20%;
     margin-left: 20%;
 }
-.Fellows h2 ,p{
-    display: inline-block;
+.size{
+    font-size: 25px;
 }
-
 
 
 .one,.two,.three{
@@ -81,16 +80,21 @@ textarea{
    display: none;
    }
 .Fellows{
-   margin-left: 10%;
+   margin-left: 5%;
    margin-right: 0;
+   padding-top: 50px;
+   padding-bottom: 50px;
    }
 .formulaire >h2{
     margin-left: 0;
     text-align: center;
    }
+   .size{
+    font-size: 30px;
+  }
 .content{
   width: auto;
 
-}
+  }
 
 }
