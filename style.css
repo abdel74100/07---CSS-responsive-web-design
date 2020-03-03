@@ -37,14 +37,18 @@ nav li:hover{
 }
 .size{
     font-size: 25px;
+    display: inline-block;
 }
 
-
+span{
+  display: inline-block;
+}
 .one,.two,.three{
   width: 33%;
   height: 400px;
   display: inline-block;
   background-color:#EEE;
+  margin-bottom: 20px;
 
 }
 .formulaire{
