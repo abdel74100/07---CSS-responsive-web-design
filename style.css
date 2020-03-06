@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+body,html{
+    font-family: open sans;
+
+}
+nav {
+  padding: 0 10px;
+  background-color: #0808089e;
+}
+nav ul{
+    display: flex;
+    margin-bottom: 0;
+    margin-top: 1px;
+    list-style-type: none;
+}
+
+nav ul li{
+  
+  margin-right: 20px;
+  color: white;
+  padding: 10px;
+}
+
+nav li:hover{
+    background-color: #e0d8d8;
+    color: black;
+}
+
+.carousel{
+  height: 200px;
+  display: flex;
+  background-color: #EEE;
+}
+
+.Fellows h2{
+  text-align: center;
+}
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.size{
+    font-size: 25px;
+    margin-left: auto;
+}
+
+span{
+  font-size: 20px;
+}
+section article{
+  height: 400px;
+  background-color: #EEE;
+  flex-grow: 0.8;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.formulaire{
+    
+    margin-bottom: 60px;
+}
+.formulaire >h2{
+    margin-left: 20px;
+}
+
+.input{
+  width: 80%;
+  margin: auto;
+}
+input,select,textarea{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    height: 30px
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 50px;
+}
+footer a {
+  margin: 5px;
+  text-decoration: none;
+  color: inherit;
+  color: white;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-right: 100px;
+}
+
+footer {
+  margin-top: auto;
+  padding: 15px 50px 15px 50px;
+  display: flex;
+  background-color: #444;
+}
+
+/******Media queries if size < 961px*********/
+
+@media screen and (max-width: 961px){
+.content{
+  flex-direction: column;
+  align-items: center;
+}
+.Fellows{
+  display: flex;
+  flex-direction: column;
+}
+.Fellows h2{
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.formulaire >h2{
+  margin-left: 0;
+  text-align: center;
+}
+
+footer {
+    flex-direction: column;
+    align-items: center;
+}
+
+footer div {
+    margin: 0;
+    align-items: center;
+}
+
+section article {
+    width: 85%;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+
+}
